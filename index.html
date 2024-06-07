@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8" />
     <title>
-      hometesting &amp; Interior Design Studio in London | UBBS London
+      TheBuildingcompany &amp; Interior Design Studio
     </title>
     <link
       href="https://assets-global.website-files.com/63c9df6b055c09c10ac5d6f0/css/ubbs-staging.webflow.7ca2f6060.css"
@@ -38,7 +38,6 @@
           ("ontouchstart" in o ||
             (o.DocumentTouch && c instanceof DocumentTouch)) &&
             (n.className += t + "touch");
-            
       })(window, document);
     </script>
     <link
@@ -116,15 +115,53 @@
         overflow: hidden;
       }
     </style>
+    <style>
+     .imgforslider {
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+@media (max-width: 1024px) {
+    .imgforslider {
+        height: 112vh; 
+        object-fit: cover; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .imgforslider {
+        height: 100vh; 
+        object-fit: contain; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .imgforslider {
+        height: 30vh;
+        object-fit: contain; 
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .imgforslider {
+        height: 100vh; 
+        width: 100vw;
+        object-fit: cover; 
+    }
+}
+
+    </style>
 
     <style>
-      /*width*/
       #scrollbar::-webkit-scrollbar {
         width: 5px;
         height: 0px;
       }
 
-      /* Small devices (portrait tablets and large phones, 600px and up) */
       @media only screen and (max-width: 600px) {
         #scrollbar::-webkit-scrollbar {
           width: 0px;
@@ -132,13 +169,11 @@
         }
       }
 
-      /*track*/
       #scrollbar::-webkit-scrollbar-track {
         background: rgba(243, 246, 252, 0);
         border-radius: 25px;
       }
 
-      /*thumb*/
       #scrollbar::-webkit-scrollbar-thumb {
         background: #e2e7f1;
         border-radius: 25px;
@@ -150,7 +185,6 @@
     </style>
 
     <style>
-      /* Snippet makes all link elements listed below to inherit color from their parent */
       a,
       .w-nav-link,
       .w-dropdown-btn,
@@ -159,7 +193,6 @@
         color: inherit;
       }
 
-      /*Reset selects, buttons, and links styles*/
       .w-input,
       .w-select,
       a {
@@ -168,29 +201,24 @@
         font-size: inherit;
       }
 
-      /* Snippet makes the cursor parent not clickable */
       .cursor-wrapper {
         user-select: none;
         pointer-events: none;
       }
 
-      /* Snippet prevents all click and hover interaction with an element */
       .clickable-off {
         pointer-events: none;
       }
 
-      /* Snippet enables all click and hover interaction with an element */
       .clickable-on {
         pointer-events: auto;
       }
 
-      /* Make the default text underlines nicer */
       .text-decoration---underline {
         text-decoration-thickness: 0.05rem;
         text-underline-offset: 0.075rem;
       }
 
-      /* Ads a margin to ul element */
       .w-richtext ol,
       .w-richtext ul {
         margin: 20px 0;
@@ -210,16 +238,14 @@
       }
     </style>
 
-    <!-- Block out any accidental highlighting of the tab buttons for added polish -->
     <style>
       .standard-tab {
-        -webkit-touch-callout: none; /* iOS Safari */
-          -webkit-user-select: none; /* Safari */
-           -khtml-user-select: none; /* Konqueror HTML */
-             -moz-user-select: none; /* Firefox */
-              -ms-user-select: none; /* Internet Explorer/Edge */
-                  user-select: none; /* Non-prefixed version, currently
-                                        supported by Chrome and Opera */
+        -webkit-touch-callout: none;
+          -webkit-user-select: none;
+           -khtml-user-select: none;
+             -moz-user-select: none;
+              -ms-user-select: none;
+                  user-select: none;
     </style>
   </head>
   <body class="body">
@@ -484,6 +510,7 @@
                 </div>
                 <div class="slider-background one">
                   <img
+                    class="imgforslider"
                     src="https://tbco.in/wp-content/uploads/2017/11/cam_09-scaled.jpg"
                   />
                 </div>
@@ -564,6 +591,7 @@
                 </div>
                 <div class="slider-background three">
                   <img
+                    class="imgforslider"
                     src="https://tbco.in/wp-content/uploads/2017/11/cam_09-scaled.jpg"
                   />
                 </div>
@@ -646,6 +674,7 @@
                 </div>
                 <div class="slider-background two">
                   <img
+                    class="imgforslider"
                     src="https://tbco.in/wp-content/uploads/2017/11/cam_09-scaled.jpg"
                   />
                 </div>
@@ -727,6 +756,7 @@
                 </div>
                 <div class="slider-background four">
                   <img
+                    class="imgforslider"
                     src="https://tbco.in/wp-content/uploads/2017/11/cam_09-scaled.jpg"
                   />
                 </div>
@@ -771,7 +801,7 @@
               >
                 <h2
                   data-w-id="46d30f7a-22eb-5986-ef94-452fd925bf32"
-                  style="opacity: 0"
+                  style="opacity: 0;"
                   class="large-heading"
                 >
                   OUR BRAND STORY
@@ -828,7 +858,7 @@
           <div class="clip">
             <h2
               data-w-id="13e7ed5f-3892-b7d1-6e5e-856f5e2d37a3"
-              style="opacity: 0"
+              style="opacity: 0;"
               class="large-heading"
             >
               Featured projects
@@ -1569,7 +1599,7 @@
               <h2
                 id="w-node-bcd08f40-b7f0-24a0-9fdc-b7738eba030c-2ec5d6f5"
                 data-w-id="bcd08f40-b7f0-24a0-9fdc-b7738eba030c"
-                style="opacity: 0"
+                style="opacity: 0;"
                 class="large-heading"
               >
                 Highlights
@@ -1681,7 +1711,7 @@
                 class="quattro-content-wrapper"
               >
                 <div class="subtitle-wrapper margin-20">
-                  <div style="opacity: 0.6" class="subtitle-medium null white">
+                  <div style="opacity: 0.6;" class="subtitle-medium null white">
                     Ideate
                   </div>
                 </div>
@@ -1727,7 +1757,7 @@
                 class="quattro-content-wrapper"
               >
                 <div class="subtitle-wrapper margin-20">
-                  <div style="opacity: 0.6" class="subtitle-medium null white">
+                  <div style="opacity: 0.6;" class="subtitle-medium null white">
                     Construct
                   </div>
                 </div>
@@ -1773,7 +1803,7 @@
                 class="quattro-content-wrapper"
               >
                 <div class="subtitle-wrapper margin-20">
-                  <div style="opacity: 0.6" class="subtitle-medium null white">
+                  <div style="opacity: 0.6;" class="subtitle-medium null white">
                     Develop
                   </div>
                 </div>
@@ -1819,7 +1849,7 @@
                 class="quattro-content-wrapper"
               >
                 <div class="subtitle-wrapper margin-20">
-                  <div style="opacity: 0.6" class="subtitle-medium null white">
+                  <div style="opacity: 0.6;" class="subtitle-medium null white">
                     Plan
                   </div>
                 </div>
@@ -1848,7 +1878,7 @@
         <img
           src="https://assets-global.website-files.com/63c9df6b055c09c10ac5d6f0/644f1b035896be20f7574232_643b3b2bfa6830febac4f275_sechenovskogo-10.webp"
           loading="lazy"
-          style="opacity: 0"
+          style="opacity: 0;"
           sizes="(max-width: 479px) 0px, 100vw"
           alt="Interior Design services in London"
           srcset="
@@ -1862,7 +1892,7 @@
         /><img
           src="https://assets-global.website-files.com/63c9df6b055c09c10ac5d6f0/644f18f20014986761b02ee9_643b35a6599bb80d3ce4c525_embassy-house-04.webp"
           loading="lazy"
-          style="opacity: 0"
+          style="opacity: 0;"
           sizes="(max-width: 479px) 0px, 100vw"
           alt="Commercial Architecture Design services in London "
           srcset="
@@ -1876,7 +1906,7 @@
         /><img
           src="https://assets-global.website-files.com/63c9df6b055c09c10ac5d6f0/64416671d9d4884a3942c487_monochrome-image.jpg"
           loading="lazy"
-          style="opacity: 0"
+          style="opacity: 0;"
           sizes="(max-width: 479px) 0px, 100vw"
           alt="Architecture and Interior Design services in London"
           srcset="
@@ -1893,7 +1923,7 @@
         /><img
           src="https://assets-global.website-files.com/63c9df6b055c09c10ac5d6f0/63db20a9d833029e83600317_Screenshot%202023-02-02%20at%2001.08.44.webp"
           loading="lazy"
-          style="opacity: 0"
+          style="opacity: 0;"
           sizes="(max-width: 479px) 0px, 100vw"
           alt="Interior Design services in London"
           srcset="
@@ -1977,7 +2007,7 @@
               >
                 <h2
                   data-w-id="c1b9e6b6-2d3a-402d-b068-3fe847120d67"
-                  style="opacity: 0"
+                  style="opacity: 0;"
                   class="large-heading-2"
                 >
                   Latest insights
@@ -2334,7 +2364,7 @@
                 <div class="subtitle-wrapper margin-10">
                   <div class="subtitle-medium null dark">Contact</div>
                 </div>
-                <p class="paragraph-small">+91 9512088999s<br /></p>
+                <p class="paragraph-small">+91 9512088999<br /></p>
               </div>
             </div>
           </div>
@@ -2545,7 +2575,6 @@
         height: 0px;
       }
 
-      /* Small devices (portrait tablets and large phones, 600px and up) */
       @media only screen and (max-width: 600px) {
         #scrollbar::-webkit-scrollbar {
           width: 0px;
@@ -2571,7 +2600,6 @@
     </style>
 
     <style>
-      /* Snippet makes all link elements listed below to inherit color from their parent */
       a,
       .w-nav-link,
       .w-dropdown-btn,
@@ -2580,7 +2608,6 @@
         color: inherit;
       }
 
-      /*Reset selects, buttons, and links styles*/
       .w-input,
       .w-select,
       a {
@@ -2589,23 +2616,19 @@
         font-size: inherit;
       }
 
-      /* Snippet makes the cursor parent not clickable */
       .cursor-wrapper {
         user-select: none;
         pointer-events: none;
       }
 
-      /* Snippet prevents all click and hover interaction with an element */
       .clickable-off {
         pointer-events: none;
       }
 
-      /* Snippet enables all click and hover interaction with an element */
       .clickable-on {
         pointer-events: auto;
       }
 
-      /* Make the default text underlines nicer */
       .text-decoration---underline {
         text-decoration-thickness: 0.05rem;
         text-underline-offset: 0.075rem;
@@ -2636,7 +2659,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
 
     <script>
-      // Find all text with .tricks class and break each letter into a span
       var tricksWord = document.getElementsByClassName("tricks");
       for (var i = 0; i < tricksWord.length; i++) {
         var wordWrap = tricksWord.item(i);
@@ -2858,75 +2880,67 @@
     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
     <script>
       new PureCounter({
-        // Setting that can't' be overriden on pre-element
-        selector: ".experience", // HTML query selector for spesific element
+        selector: ".experience",
 
-        // Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
-        start: 0, // Starting number [unit]
-        end: 30, // End number [unit]
-        duration: 1, // The time in seconds for the animation to complete [seconds]
-        delay: 10, // The delay between each iteration (the default of 10 will produce 100 fps) [miliseconds]
-        once: true, // Counting at once or recount when the element in view [boolean]
-        repeat: false, // Repeat count for certain time [boolean:false|seconds]
-        decimals: 0, // How many decimal places to show. [unit]
-        legacy: true, // If this is true it will use the scroll event listener on browsers
-        filesizing: false, // This will enable/disable File Size format [boolean]
-        currency: false, // This will enable/disable Currency format. Use it for set the symbol too [boolean|char|string]
-        separator: false, // This will enable/disable comma separator for thousands. Use it for set the symbol too [boolean|char|string]
+        start: 0,
+        end: 30,
+        duration: 1,
+        delay: 10,
+        once: true,
+        repeat: false,
+        decimals: 0,
+        legacy: true,
+        filesizing: false,
+        currency: false,
+        separator: false,
       });
 
       new PureCounter({
-        // Setting that can't' be overriden on pre-element
-        selector: ".projects", // HTML query selector for spesific element
+        selector: ".projects",
 
-        // Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
-        start: 0, // Starting number [unit]
-        end: 300, // End number [unit]
-        duration: 1, // The time in seconds for the animation to complete [seconds]
-        delay: 10, // The delay between each iteration (the default of 10 will produce 100 fps) [miliseconds]
-        once: true, // Counting at once or recount when the element in view [boolean]
-        repeat: false, // Repeat count for certain time [boolean:false|seconds]
-        decimals: 0, // How many decimal places to show. [unit]
-        legacy: true, // If this is true it will use the scroll event listener on browsers
-        filesizing: false, // This will enable/disable File Size format [boolean]
-        currency: false, // This will enable/disable Currency format. Use it for set the symbol too [boolean|char|string]
-        separator: false, // This will enable/disable comma separator for thousands. Use it for set the symbol too [boolean|char|string]
+        start: 0,
+        end: 300,
+        duration: 1,
+        delay: 10,
+        once: true,
+        repeat: false,
+        decimals: 0,
+        legacy: true,
+        filesizing: false,
+        currency: false,
+        separator: false,
       });
 
       new PureCounter({
-        // Setting that can't' be overriden on pre-element
-        selector: ".countries", // HTML query selector for spesific element
+        selector: ".countries",
 
-        // Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
-        start: 0, // Starting number [unit]
-        end: 11, // End number [unit]
-        duration: 1, // The time in seconds for the animation to complete [seconds]
-        delay: 10, // The delay between each iteration (the default of 10 will produce 100 fps) [miliseconds]
-        once: true, // Counting at once or recount when the element in view [boolean]
-        repeat: false, // Repeat count for certain time [boolean:false|seconds]
-        decimals: 0, // How many decimal places to show. [unit]
-        legacy: true, // If this is true it will use the scroll event listener on browsers
-        filesizing: false, // This will enable/disable File Size format [boolean]
-        currency: false, // This will enable/disable Currency format. Use it for set the symbol too [boolean|char|string]
-        separator: false, // This will enable/disable comma separator for thousands. Use it for set the symbol too [boolean|char|string]
+        start: 0,
+        end: 11,
+        duration: 1,
+        delay: 10,
+        once: true,
+        repeat: false,
+        decimals: 0,
+        legacy: true,
+        filesizing: false,
+        currency: false,
+        separator: false,
       });
 
       new PureCounter({
-        // Setting that can't' be overriden on pre-element
-        selector: ".projects-per-year", // HTML query selector for spesific element
+        selector: ".projects-per-year",
 
-        // Settings that can be overridden on per-element basis, by `data-purecounter-*` attributes:
-        start: 0, // Starting number [unit]
-        end: 25, // End number [unit]
-        duration: 1, // The time in seconds for the animation to complete [seconds]
-        delay: 10, // The delay between each iteration (the default of 10 will produce 100 fps) [miliseconds]
-        once: true, // Counting at once or recount when the element in view [boolean]
-        repeat: false, // Repeat count for certain time [boolean:false|seconds]
-        decimals: 0, // How many decimal places to show. [unit]
-        legacy: true, // If this is true it will use the scroll event listener on browsers
-        filesizing: false, // This will enable/disable File Size format [boolean]
-        currency: false, // This will enable/disable Currency format. Use it for set the symbol too [boolean|char|string]
-        separator: false, // This will enable/disable comma separator for thousands. Use it for set the symbol too [boolean|char|string]
+        start: 0,
+        end: 25,
+        duration: 1,
+        delay: 10,
+        once: true,
+        repeat: false,
+        decimals: 0,
+        legacy: true,
+        filesizing: false,
+        currency: false,
+        separator: false,
       });
     </script>
 
